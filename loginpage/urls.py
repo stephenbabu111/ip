@@ -23,6 +23,7 @@ urlpatterns = [
     path('signup/',views.signup_view),
     path('confsignup/',views.conf_signup_view),
     path('login/',views.login_view),
+    path('conflogin/',views.conf_login_view),
     url(r'^$',views.home_view),
 
 

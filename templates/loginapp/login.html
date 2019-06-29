@@ -7,11 +7,12 @@
     <title>login page</title>
 </head>
 <body>
-<form method="POST" action="/confsignup/" align="center">
+<h1 align="center">login page</h1><hr>
+<form method="POST" action="/conflogin/" align="center">
      {%csrf_token%}
      <h4><lable>User name:<input type="text" name="username"></lable><br><br>
-     <lable>Password:&nbsp&nbsp<input type="text" name="password"></lable><br><br>
-     <button type="submit" ALIGN="CENTER" class="btn btn-primary btn-lg" >SIGNUP</button>
+     <lable>Password:&nbsp&nbsp<input type="password" name="password"></lable><br><br>
+     <button type="submit" ALIGN="CENTER" class="btn btn-primary btn-lg" >LOGIN</button>
 
 
  </form>
